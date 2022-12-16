@@ -1,0 +1,38 @@
+_id: req_03e9b52350b5401aa41393862bcc036a
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511942
+created: 1671194511942
+url: http://localhost:8000/api/chartskit/amendment/list
+name: Get Amendment List
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_ca5934f52c1843e888d877b896c54590
+    name: companies[]
+    value: "1"
+    description: ""
+  - id: pair_bee0caa67aa04836b9f41cadf47db311
+    name: companies[]
+    value: "2"
+    description: ""
+  - id: pair_23112c76c9d8493b9f7bf76a3a48ab5f
+    name: date
+    value: 2021-05-20
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2d038b4d5af94e02b8d80c2991c99040
+authentication: {}
+metaSortKey: -1629442334973
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

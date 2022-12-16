@@ -1,0 +1,43 @@
+_id: req_586af06da8e445f781d34ac686b02e60
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512021
+created: 1671194512021
+url: http://localhost:8000/api/chartskit/1c2ab67e-576c-4ffc-a2df-f880eabecf0d/chart
+name: Update Chart
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "uuid":"1c2ab67e-576c-4ffc-a2df-f880eabecf07",
+       "name":"TEST CqfwfqwfqwfqwfHART 2",
+       "type":"TEST",
+    	 "flightRules": "VFR",
+    	 "geoReference":{
+          "lowerLeft": {
+            "latitude": 11.123123,
+            "longitude": 11.123123
+          },
+          "upperRight": {
+            "latitude": 11.123123,
+            "longitude": 11.123123
+          }
+       },
+    	 "procedures": ["FU1F&FJFJD", "CHFHRF23F"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8c46421aa1574afda34a0c3c91e1ca9b
+authentication: {}
+metaSortKey: -1629093968247.0938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

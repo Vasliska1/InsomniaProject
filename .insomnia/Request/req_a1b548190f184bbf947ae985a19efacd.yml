@@ -1,0 +1,118 @@
+_id: req_a1b548190f184bbf947ae985a19efacd
+type: Request
+parentId: fld_a5f332c99e394e6695ae38d8e2e533c8
+modified: 1671194511882
+created: 1671194511882
+url: "{{ _.url.bai_api }}/aircraft"
+name: Create Aircraft
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+          "uuid": "9537e26e-5c3a-41c3-9a8b-8dc99144d0f0",
+          "type": "553b763a-e518-464e-90e9-1c8bb061d863",
+          "unit": {
+            "airspeed": "KM_H",
+            "distance": "KM",
+            "verticalAirspeed": "FT_SEC",
+            "verticalDistance": "M",
+            "fuel": "GAL",
+            "fuelConsumption": "GAL_H"
+          },
+          "updatedAt": "2020-03-05 14:14:15",
+          "isCompany": false,
+          "tailNumber": "111",
+          "customType": "111",
+          "code": "113",
+          "registerSign": "test",
+          "flightPerformance": "1",
+          "wakeCategory": "J",
+          "operator": "1",
+          "color": ["GREEN", "RED"],
+          "airportHeliport": "002e6ae8-fd59-4929-a3d4-e9c9b2601403",
+          "glide": {
+            "bestGlideSpeed": {
+              "value": 7,
+              "uom": "FT_SEC"
+            }
+          },
+          "defaultCruiseAltitude": {
+            "value": 3,
+            "uom": "M"
+          },
+          "maxCeiling": {
+            "value": 3,
+            "uom": "M"
+          },
+          "fuel": {
+            "type": ["JET"],
+            "startTaxiTakeOff": {
+              "value": 33,
+              "uom": "GAL"
+            },
+            "maximum": {
+              "value": 6,
+              "uom": "GAL"
+            }
+          },
+          "equipment": {
+            "navaids": ["N", "S"],
+            "PerformBasedNavigation": ["A1"]
+          },
+          "specialHandling": "ALTRV",
+          "rescueEquipment": {
+            "lifeJackets": ["F", "L"],
+            "radios": ["E"],
+            "kits": ["P", "D"],
+            "dinghy": {
+              "covered": true,
+              "capacity": 21,
+              "count": 3,
+              "colors": ["GREEN", "RED"]
+            },
+            "remark": "asdasdasd"
+          }
+    }
+parameters:
+  - description: ""
+    disabled: true
+    id: pair_10bc6dfcbb2845c9bc443f373cd5da75
+    name: search
+    value: Ананьино
+  - description: ""
+    disabled: true
+    id: pair_23a6e686c2ac4bbe9dc62f5a427ffe8d
+    name: ""
+    value: ""
+  - description: ""
+    disabled: true
+    id: pair_3f4b9467c6f14719910b3d24014692b9
+    name: ""
+    value: ""
+  - description: ""
+    disabled: true
+    id: pair_cbc9ef61293c4fee9b8260d5cd31c1ac
+    name: key
+    value: dev
+headers:
+  - description: ""
+    id: pair_6fbf61f75afd412b9839a6a9e14d3245
+    name: ""
+    value: ""
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'when-expired', 60 %}"
+metaSortKey: -1616139375663.8594
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_f8c605711b7047558a0a6a2a6a2aa961
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511933
+created: 1671194511933
+url: http://localhost:8000/api/chartskit/999be573-e6eb-4766-aee8-4a4bb9c24dcd/chart
+name: Update Chart
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "uuid":"441ed4af-e6eb-4766-aee8-4a4bb9ca4dcd",
+       "name":"Test Chart Updated",
+       "type":"AREA",
+    	 "flightRules": "VFR",
+    	 "geoReference":{
+          "lowerLeft": {
+            "latitude": 11.11,
+            "longitude": 22.22
+          },
+          "upperRight": {
+            "latitude": 11.11,
+            "longitude": 22.22
+          }
+       },
+       "procedures": ["FJ2FJD", "C23F"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8c46421aa1574afda34a0c3c91e1ca9b
+authentication: {}
+metaSortKey: -1629442335176.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

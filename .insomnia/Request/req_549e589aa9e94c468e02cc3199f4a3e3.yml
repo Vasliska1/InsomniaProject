@@ -1,0 +1,49 @@
+_id: req_549e589aa9e94c468e02cc3199f4a3e3
+type: Request
+parentId: fld_b015382180c4437e881ff2cfe3b42991
+modified: 1671194512005
+created: 1671194512005
+url: https://dev.baionline.ru/api/route/fpl/alrosa/txt
+name: Create Route From Txt Alrosa company
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /home/vasilisa/Documents/OFP/alrosa.TXT
+parameters:
+  - name: id
+    value: asdasd
+    description: ""
+    id: pair_7aaa0c09412d42608b1f34f5ea1488e2
+  - id: pair_c436f5f9634e4beeac391339d64e86f6
+    name: companyId
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_4391f237b4044ac9bfc57cfe9062efe3
+    name: expiryHours
+    value: "99999999999999999999999999999999999999999999999999999999999999999999999\
+      9999999999999999999999999999999999999999999999999999999999999999999999999\
+      9999999999999999999999999999999999999999999999999999999999999999999999999\
+      9999999999999999999999999999999999999999999999999999999999999999999999999\
+      9999999999999999999"
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: text/plain
+    id: pair_ccf1554dc36b4ac1a3c81cfc24e2c64b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: letunv01
+  password: letunv01
+metaSortKey: -1581553217005.003
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

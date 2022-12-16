@@ -1,0 +1,41 @@
+_id: req_55b16d4f189c48c3bc93caddbc912e1f
+type: Request
+parentId: fld_b015382180c4437e881ff2cfe3b42991
+modified: 1671194511982
+created: 1671194511982
+url: "{{ _.url.bai_api }}/route/fpl/ofp"
+name: Create Route From OFP
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /home/vasilisa/Downloads/OFP Sample.txt
+parameters:
+  - name: id
+    value: asdasd
+    description: ""
+    id: pair_7aaa0c09412d42608b1f34f5ea1488e2
+    disabled: true
+  - id: pair_f72def9a590a44cba34de41f00af4cf4
+    name: companyId
+    value: "164"
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: text/plain
+    id: pair_ccf1554dc36b4ac1a3c81cfc24e2c64b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: letunv01
+  password: letunv01
+metaSortKey: -1581553217004.8335
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

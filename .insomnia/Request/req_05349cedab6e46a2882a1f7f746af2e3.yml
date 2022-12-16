@@ -1,0 +1,60 @@
+_id: req_05349cedab6e46a2882a1f7f746af2e3
+type: Request
+parentId: fld_b015382180c4437e881ff2cfe3b42991
+modified: 1671194511975
+created: 1671194511975
+url: "{{ _.url.bai_api }}/route/fpl/txt"
+name: Create Route From Txt
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    (FPL-DRU9704-IN
+
+    -B738/M-SDFGHIRWY/S
+
+    -USDB0900
+
+    -K0840F360 KEMI1E KEMIB W255 TALNA N167 BEBIR G497 UNISO L992 GIMAK M168
+
+    BIBLI/K0833F350 M168 AKERA/K0835F360 T764 IPROK IPRO2Y
+
+    -UWUU0238 USII UWWW
+
+    -PBN/A1B2B3C2D2L1O2S1 NAV/RNVD1E2A1 DOF/221213 REG/RA73266 EET/USSV0117 UWWW0213
+
+    OPR/ALROSA AIR COMPANY JSC RALT/USDB USSS RMK/OBESPECHENIE SOGLASOVANO)
+parameters:
+  - name: id
+    value: asdasddfs
+    description: ""
+    id: pair_7aaa0c09412d42608b1f34f5ea1488e2
+    disabled: true
+  - id: pair_994fe80ca60243ca9c759408a6aff42c
+    name: companyId
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_68cd22719d1a481c950136ee4e2ddfbe
+    name: expiryHours
+    value: "1"
+    description: ""
+headers:
+  - name: Content-Type
+    value: text/plain
+    id: pair_ccf1554dc36b4ac1a3c81cfc24e2c64b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1581553216955.8926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

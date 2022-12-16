@@ -1,0 +1,46 @@
+_id: req_3cc08c775eeb45ce9ac0d29df89a2bf3
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511935
+created: 1671194511935
+url: http://localhost:8000/api/chartskit/777be573-e6eb-4766-aee8-4a4bb9c24d01/download
+name: Download ChartsKit
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_cbf2ffc88dae4e62bafd798f55de90d3
+    name: tailored
+    value: "112"
+    description: ""
+    disabled: false
+  - id: pair_e47a3d384acd4452afe72bfc3ad185ea
+    name: ""
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_5e2578c736494fa78d08a653ba770ada
+    name: ""
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_be010200400344fdb4f9c51ca3bc8062
+    name: ""
+    value: ""
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2d038b4d5af94e02b8d80c2991c99040
+authentication: {}
+metaSortKey: -1629442335148
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

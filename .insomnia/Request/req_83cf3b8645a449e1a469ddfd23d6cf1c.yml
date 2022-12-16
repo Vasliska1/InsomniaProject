@@ -1,0 +1,48 @@
+_id: req_83cf3b8645a449e1a469ddfd23d6cf1c
+type: Request
+parentId: fld_b015382180c4437e881ff2cfe3b42991
+modified: 1671194511974
+created: 1671194511974
+url: "{{ _.url.bai_api }}/route/fpl/xml"
+name: Create Route From Xml
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /home/vasilisa/Documents/OFP/xml.xml
+parameters:
+  - name: id
+    value: asdasd
+    description: ""
+    id: pair_7aaa0c09412d42608b1f34f5ea1488e2
+  - id: pair_36d3d6fef8054099b5b7110b36b40732
+    name: companyId
+    value: "1"
+    description: ""
+  - id: pair_98346cc1c48343cb9bc997c24a2cd0db
+    name: expiryHours
+    value: "2"
+    description: ""
+    disabled: false
+  - id: pair_8ec7b435db2a44a3a7187b2f6cac80d6
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/xml
+    id: pair_ccf1554dc36b4ac1a3c81cfc24e2c64b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1581553217005.8926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

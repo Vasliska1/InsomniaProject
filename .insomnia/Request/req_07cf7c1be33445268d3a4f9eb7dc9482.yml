@@ -1,0 +1,30 @@
+_id: req_07cf7c1be33445268d3a4f9eb7dc9482
+type: Request
+parentId: fld_83668d691e5d4541848980d13fc0f446
+modified: 1671194511953
+created: 1671194511953
+url: http://localhost:8000/api/district
+name: Create District
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"uuid": "3e1ed3af-e6eb-4766-aee8-4a4bb9c24dcd",
+    	"name": "Test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8cdbe896f5ad4ef6af943dbf05b24781
+authentication: {}
+metaSortKey: -1629896549075
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_41f74a41855d42a6a455dfcd28b779ac
+type: Request
+parentId: fld_7122a31082fd44b09fd74ec3bd01ddf3
+modified: 1671194511960
+created: 1671194511960
+url: http://localhost:8000/api/parsing/chartskit/777be573-e6eb-4766-aee8-4a4bb9c24dcd/pdf/8fbe76a8-5097-40c3-88a8-708556f9f709
+name: Get Parsing
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: devianne
+  password: "111"
+metaSortKey: -1634982504341
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

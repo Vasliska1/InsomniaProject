@@ -1,0 +1,55 @@
+_id: req_dd7a829ce1f54257a6f7c31c20a0567a
+type: Request
+parentId: fld_802ec818bc654373b4b9d4a91db6c9a5
+modified: 1671194512074
+created: 1671194512074
+url: "{{ _.url.bai_api }}/catalog"
+name: Create a catalog
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "c6bd225d-33ba-43ef-acfd-c1f17e7230422",
+    	"isCompany": true,
+    	"name": "test folder",
+    	"parent": "c6bd225d-33ba-43ef-acfd-c1f17e723021",
+    	"accesses": [
+    		{
+    			"userId": 1
+    		},
+    		{
+    			"userId": 5
+    		},
+    		{
+    			"userId": 9
+    		},
+    		{
+    			"userGroupId": 2
+    		},
+    		{
+    			"userGroupId": 3
+    		},
+    		{
+    			"userGroupId": 4
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9c6aeae965bc4ab9b0f5ca058573b17d
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1635146244970
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

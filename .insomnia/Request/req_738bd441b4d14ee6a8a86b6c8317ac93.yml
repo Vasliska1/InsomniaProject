@@ -1,0 +1,29 @@
+_id: req_738bd441b4d14ee6a8a86b6c8317ac93
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511923
+created: 1671194511923
+url: http://localhost:8000/api/chartskit/999be573-e6eb-4766-aee8-4a4bb9c24dcd/publish
+name: Publish ChartsKit
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2021-10-01"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ae51725e7d4b41ceb22eb736d03903b5
+authentication: {}
+metaSortKey: -1629442335194.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

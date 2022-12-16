@@ -1,0 +1,31 @@
+_id: req_b73f281c97384069b486c73f72042ad2
+type: Request
+parentId: fld_7f649c9c6f9d42d29155ac29d6411085
+modified: 1671194511797
+created: 1671194511797
+url: http://old.dev.baionline.ru/api/auth/check
+name: JWT AuthDev
+description: |
+  Получение информации об авторизированном пользователи.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "vazgen",
+    	"password": "010978"
+    }
+parameters: []
+headers:
+  - id: pair_73c362d342ad4b0398c8e7562684e45d
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1583838089918.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

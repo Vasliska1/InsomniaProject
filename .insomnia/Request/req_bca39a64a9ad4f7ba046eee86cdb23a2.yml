@@ -1,0 +1,31 @@
+_id: req_bca39a64a9ad4f7ba046eee86cdb23a2
+type: Request
+parentId: fld_3d2427fb72a14a05ba1336f361a8f8f2
+modified: 1671194511783
+created: 1671194511783
+url: "{{ _.sheme }}/ru/airport-heliport/isset"
+name: Foind by ICAO or name
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    disabled: false
+    id: pair_b82021166ece451ba7b23fa93e36ec1d
+    name: found
+    value: ULLI
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1584221259563
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

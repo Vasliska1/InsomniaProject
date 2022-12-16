@@ -1,0 +1,24 @@
+_id: req_342b651f67bc4b3b8da02006984c7be9
+type: Request
+parentId: fld_4906afe89e8b4acdbd3ef39a7f4a818e
+modified: 1671194511915
+created: 1671194511915
+url: "{{ _.url.bai_api }}/user"
+name: Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1620809679812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

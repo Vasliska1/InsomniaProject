@@ -1,0 +1,66 @@
+_id: pf_b03ec1a5957d450bb2d2347a2c3666b1
+type: ProtoFile
+parentId: wrk_4cde2c4bba22428485d3f1811cc90496
+modified: 1671194512106
+created: 1671194512106
+name: parsing.proto
+protoText: >-
+  syntax = "proto3";
+
+  package proto;
+
+  option go_package = "./;proto";
+
+
+  service ParsingService {
+    rpc CreateParsing (CreateParsingRequest) returns (EmptyResponse) {
+    }
+    rpc UpdateParsing (UpdateParsingRequest) returns (EmptyResponse) {
+    }
+    rpc ExecuteParsing (ExecuteParsingRequest) returns (ExecuteParsingResponse) {
+    }
+    rpc GetParsing (GetParsingRequest) returns (GetParsingResponse) {
+    }
+  }
+
+
+  message CreateParsingRequest {
+    string uuid = 1;
+    string chartsKit = 2;
+    string createdAt = 3;
+  }
+
+
+  message UpdateParsingRequest {
+    string uuid = 1;
+    string error = 2;
+    bool complete = 3;
+  }
+
+
+  message ExecuteParsingRequest {
+    string uuid = 1;
+    bytes file = 2;
+  }
+
+
+  message GetParsingRequest {
+    string uuid = 1;
+  }
+
+
+  message EmptyResponse {}
+
+
+  message ExecuteParsingResponse {
+    bytes archive = 1;
+  }
+
+
+  message GetParsingResponse {
+    string uuid = 1;
+    string chartsKit = 2;
+    string createdAt = 3;
+    string error = 4;
+    bool complete = 5;
+  }

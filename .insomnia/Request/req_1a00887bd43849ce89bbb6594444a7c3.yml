@@ -1,0 +1,32 @@
+_id: req_1a00887bd43849ce89bbb6594444a7c3
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512023
+created: 1671194512023
+url: "{{ _.url.bai_api }}/chartskit/1c2ab67e-576c-4ffc-a2df-f880eabecf0d/close"
+name: Close chartsKit
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2021-11-30"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4498f24d3ac74539a5a6d29db297e781
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1629094066495.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

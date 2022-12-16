@@ -1,0 +1,20 @@
+_id: greq_4ee7781b6e0d45f185e1c1a8f16b0e2b
+type: GrpcRequest
+parentId: fld_17dea943884144c7b11fd5e5c8e8bd66
+modified: 1671194511964
+created: 1671194511964
+url: localhost:8001
+name: Create Parsing
+description: ""
+protoFileId: pf_610d3e9b69d74603ad5dfdc051e90a59
+protoMethodName: /proto.ParsingService/CreateParsing
+metadata: []
+body:
+  text: |-
+    {
+    	"uuid": "8fbe76a8-5097-40c3-88a8-708556f9f709",
+    	"chartsKit": "777be573-e6eb-4766-aee8-4a4bb9c24dcd",
+    	"createdAt": "2021-12-14 09:06:51"
+    }
+metaSortKey: -1639061003798.5
+isPrivate: false

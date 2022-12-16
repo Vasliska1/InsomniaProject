@@ -1,0 +1,61 @@
+_id: req_ffe4c13a10ff4587b9b8746240f6177f
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512037
+created: 1671194512037
+url: "{{ _.url.bai_api }}/chartskit/777be573-e6eb-4766-aee8-4a4bb9c24d08"
+name: Get2
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"uuid": "777be573-e6eb-4766-aee8-4a4bb9c24d15",
+    	"name": "Test",
+    	"company": "112",
+    	"district": "5c21b67e-576c-4f6c-a2d5-f880eabd1f01",
+    	"airportHeliport": {
+    		"uuid": "211be111-e6eb-4766-aee8-4a4bb9c24dc3",
+    		"type": "LS",
+    		"controlType": "CIVIL",
+    		"locationIndicatorICAO": "UUDD",
+    		"location": {
+    			"latitude": 33.33,
+    			"longitude": 43.43
+    		}
+    	}
+    }
+parameters:
+  - id: pair_d0e937296c984006bf81be0e8098a873
+    name: tailored
+    value: "112"
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9c6aeae965bc4ab9b0f5ca058573b17d
+  - id: pair_7b8fe61e1e0f484380e56fb399164518
+    name: Authorization1
+    value: Bearer {% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+      'b64::JC50b2tlbg==::46b', 'always', 60 %}
+    description: ""
+  - id: pair_3eaebea120a741eda6243a217ca086e2
+    name: idempotent-key
+    value: "1"
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: letunv01
+  password: letunv01
+metaSortKey: -1629094410365.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

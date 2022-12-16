@@ -1,0 +1,44 @@
+_id: req_0850ac0d1abe44f682587d74676a4b62
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511930
+created: 1671194511930
+url: http://localhost:8000/api/chartskit/777be573-e6eb-4766-aee8-4a4bb9c24d16/chart
+name: Add Chart
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_07017c6ad2024bef856f7e73fcc77565
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/vrlmv/Downloads/FEo3j73VUAUGKv1.jpg
+    - id: pair_a68b53328efa45c2a300b106f11db675
+      name: chart
+      value: >
+        {"uuid":"7d8f8714-0554-4759-a42b-3270b236e290","name":"PAGE-1","type":"INFO","flightRules":"IFR"}
+      description: ""
+      type: text
+      multiline: true
+    - id: pair_34e0942244aa4058aa38786ac8c081bf
+      name: tailored
+      value: "112"
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8c46421aa1574afda34a0c3c91e1ca9b
+authentication: {}
+metaSortKey: -1629442335179.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

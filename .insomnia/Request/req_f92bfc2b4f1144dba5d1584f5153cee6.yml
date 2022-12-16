@@ -1,0 +1,21 @@
+_id: req_f92bfc2b4f1144dba5d1584f5153cee6
+type: Request
+parentId: fld_83668d691e5d4541848980d13fc0f446
+modified: 1671194511951
+created: 1671194511951
+url: http://localhost:8000/api/district/list
+name: Get District List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629893068681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

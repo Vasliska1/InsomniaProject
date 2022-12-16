@@ -1,0 +1,28 @@
+_id: req_dfcb95260ad147d3a971bef9b282c0f1
+type: Request
+parentId: fld_a5f332c99e394e6695ae38d8e2e533c8
+modified: 1671194511885
+created: 1671194511885
+url: "{{ _.url.bai_api }}/aircraft/type"
+name: Get Aircraft Type
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    id: pair_46636725389e42b78bb7278a3ebaeeda
+    name: search
+    value: "111"
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'when-expired', 60 %}"
+metaSortKey: -1616139375676.3594
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

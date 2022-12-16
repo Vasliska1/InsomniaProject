@@ -1,0 +1,98 @@
+_id: req_25a8e80b05704ab7a051ebb163541002
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511829
+created: 1671194511829
+url: "{{ _.url.bai_api }}/pib/cfp/arinc-633-2/pdf/json"
+name: Create Bulletin Json from CFP
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /home/getsky/Downloads/flightplan.xml
+parameters:
+  - description: ""
+    disabled: false
+    id: pair_3f4b9467c6f14719910b3d24014692b9
+    name: languageBulletin
+    value: RUS
+  - name: languageNotam
+    value: BOTH
+    description: ""
+    id: pair_5f4c7eef1c484dd8a4a565b18eccda50
+  - name: isUnessentialNotam
+    value: "true"
+    description: ""
+    id: pair_a345a2e9d5654e6bab21dd28889c9ab5
+    disabled: false
+  - description: ""
+    disabled: false
+    id: pair_23a6e686c2ac4bbe9dc62f5a427ffe8d
+    name: isMilitaryNotam
+    value: "true"
+  - name: flightRules
+    value: BOTH
+    description: ""
+    id: pair_5964976eec754a83a1044bd116104fb2
+  - name: needExtraPeriod
+    value: "true"
+    description: ""
+    id: pair_77985ecb252849b0ad20175a2eb74df6
+  - name: needPerpendicular
+    value: "false"
+    description: ""
+    id: pair_7907d00703f24deb9acaba619963758e
+    disabled: false
+  - name: routeBuffer
+    value: "30"
+    description: ""
+    id: pair_1106e1939db5441e94b7c9d415155875
+  - description: ""
+    disabled: false
+    id: pair_cbc9ef61293c4fee9b8260d5cd31c1ac
+    name: airportBuffer
+    value: "10"
+  - name: sidDelta
+    value: "30"
+    description: ""
+    id: pair_7754f91211494c2e9b0e3c0e358b467e
+  - name: mainDelta
+    value: "30"
+    description: ""
+    id: pair_49ffeb503f0447c1a2d2e82500fae9c1
+  - name: starDelta
+    value: "30"
+    description: ""
+    id: pair_6e8722a4cd97423fbc168614365a727e
+  - name: alternateDelta
+    value: "30"
+    description: ""
+    id: pair_f26d467e553e4daf87ed562026867b44
+  - name: etpDelta
+    value: "30"
+    description: ""
+    id: pair_549ada918b2b47abb95fa2d9bde27de9
+  - name: airportDelta
+    value: "60"
+    description: ""
+    id: pair_eca8bb2272fd4c4280506a8adfb6297e
+  - name: altitudeLowerLimit
+    value: "100"
+    description: ""
+    id: pair_7572f7ee998547bc880d6e56b11ef610
+headers:
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/xml
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 30 %}"
+metaSortKey: -1581553216809.0176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

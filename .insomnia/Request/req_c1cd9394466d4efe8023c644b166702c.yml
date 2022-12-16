@@ -1,0 +1,62 @@
+_id: req_c1cd9394466d4efe8023c644b166702c
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512030
+created: 1671194512030
+url: "{{ _.url.bai_api }}/chartskit/amendment/list"
+name: Amendment list
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_0e35187ff1db449c91408afcd3374225
+    name: companies[]
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_9bd1cb1af6a0466e83a5ae7095a7c8bc
+    name: companies[]
+    value: "112"
+    description: ""
+    disabled: false
+  - id: pair_3bde9306fcc54cf19dc282598f0a72aa
+    name: date
+    value: 2022-11-23
+    description: ""
+    disabled: false
+  - id: pair_211dde54bc1a434181d352f52b8b579b
+    name: company
+    value: "1"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_62b5c091616f4cc49ee590646bf490a1
+    name: Authorization
+    value: Bearer {% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+      'b64::JC50b2tlbg==::46b', 'always', 60 %}
+    description: ""
+    disabled: false
+  - id: pair_1e8217e54a08445d885d8e7bd4d2a568
+    name: idempotent-key
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_bfe1244640ff42b19944cdc4663f2fd2
+    name: ""
+    value: ""
+    description: ""
+    disabled: true
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: vazgen
+  password: "010978"
+metaSortKey: -1629093885349.9746
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

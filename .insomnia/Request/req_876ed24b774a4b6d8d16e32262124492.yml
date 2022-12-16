@@ -1,0 +1,26 @@
+_id: req_876ed24b774a4b6d8d16e32262124492
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511945
+created: 1671194511945
+url: http://localhost:8000/api/chartskit/ce2bcb22-0c20-4227-a2dc-a9611ad5aa66
+name: Delete ChartKit
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8c46421aa1574afda34a0c3c91e1ca9b
+authentication: {}
+metaSortKey: -1629442335178.8594
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

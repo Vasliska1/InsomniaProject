@@ -1,0 +1,26 @@
+_id: req_b9973d1133ac462fa1a9f966eda926cc
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512029
+created: 1671194512029
+url: "{{ _.url.bai_api
+  }}/chartskit/66ded3da-3b5c-44e6-b97d-9ea91ab29141/chart/1c2ab67e-576c-4ffc-a2\
+  df-f880eabec013"
+name: Destroy Chart
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1629093820824.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

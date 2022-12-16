@@ -1,0 +1,26 @@
+_id: req_3b421d74a2e44329b8771fe7162279fa
+type: Request
+parentId: fld_3d2427fb72a14a05ba1336f361a8f8f2
+modified: 1671194511781
+created: 1671194511781
+url: "{{ _.sheme }}/ru/airport-heliport/isset"
+name: NotFound by ICAO or name
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    disabled: false
+    id: pair_b82021166ece451ba7b23fa93e36ec1d
+    name: found
+    value: URFX
+headers: []
+authentication: {}
+metaSortKey: -1584604429176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

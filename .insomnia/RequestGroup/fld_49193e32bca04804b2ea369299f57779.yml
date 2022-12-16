@@ -1,0 +1,10 @@
+_id: fld_49193e32bca04804b2ea369299f57779
+type: RequestGroup
+parentId: wrk_4cde2c4bba22428485d3f1811cc90496
+modified: 1671194511799
+created: 1671194511799
+name: Meteo
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: 400

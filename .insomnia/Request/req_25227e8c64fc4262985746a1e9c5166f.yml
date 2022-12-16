@@ -1,0 +1,26 @@
+_id: req_25227e8c64fc4262985746a1e9c5166f
+type: Request
+parentId: fld_71d20f1f219f48149ae8aab80a0d6af0
+modified: 1671194512093
+created: 1671194512093
+url: "{{ _.url.bai_api }}/cartography"
+name: List
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: letunv01
+  password: letunv01
+metaSortKey: -1630222340541.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: env_a395709149434831bfda4897a7c46dff
+type: Environment
+parentId: env_54e5fd8c39e547839cf354ce2b3ded74
+modified: 1671194511771
+created: 1671194511771
+name: Localhost [only developers]
+data:
+  url:
+    bai: http://baionline.localhost
+    bai_api: "{{ _.url.bai }}/api"
+    eaip: http://eaip.baionline.localhost
+    eaip_api: "{{ _.url.eaip }}/api"
+dataPropertyOrder:
+  "&":
+    - url
+  "&~|url":
+    - bai
+    - bai_api
+    - eaip
+    - eaip_api
+color: "#b0b0b0"
+isPrivate: false
+metaSortKey: 1619769034687

@@ -1,0 +1,33 @@
+_id: req_f7c897db09174cfd9f1ae98765f6533a
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511928
+created: 1671194511928
+url: https://dev.baionline.ru/api/new-chartskit/999be573-e6eb-4766-aee8-4a4bb9c24dcd
+name: Get ChartsKit
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2d038b4d5af94e02b8d80c2991c99040
+  - id: pair_6112484520314a50a0ee8f431f17ec5b
+    name: idempotent-key
+    value: 6bdff16d-9975-4690-a89a-7e7606f4dac6
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1629442335173
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

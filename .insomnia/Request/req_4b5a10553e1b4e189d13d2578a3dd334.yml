@@ -1,0 +1,52 @@
+_id: req_4b5a10553e1b4e189d13d2578a3dd334
+type: Request
+parentId: fld_ba44ab5ba5a94460881c5426193d289a
+modified: 1671194512060
+created: 1671194512060
+url: "{{ _.url.bai_api
+  }}/parsing/chartskit/6ec77414-0c6c-4a77-a39e-22e13f529381/pdf/bd4e96f1-7f38-4\
+  2cf-adce-c769abac78de"
+name: Get PDF parsing
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_0e35187ff1db449c91408afcd3374225
+    name: companies[]
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_9bd1cb1af6a0466e83a5ae7095a7c8bc
+    name: companies[]
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_24e5a36a2dc348c286b116d39f35c6d5
+    name: tailored
+    value: "112"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_d14eb646971a4cd3aeecee4b07f5e7ea
+    name: Authorization1
+    value: Bearer {% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+      'b64::JC50b2tlbg==::46b', 'always', 60 %}
+    description: ""
+  - id: pair_088bcbba57ee425b9593229e7e71c163
+    name: idempotent-key
+    value: "1"
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: letunv01
+  password: letunv01
+metaSortKey: -1629094048023.9492
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

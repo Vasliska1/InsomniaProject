@@ -1,0 +1,21 @@
+_id: greq_f3ba5609fa90472d95891822e21d3095
+type: GrpcRequest
+parentId: fld_17dea943884144c7b11fd5e5c8e8bd66
+modified: 1671194511966
+created: 1671194511966
+url: localhost:8001
+name: Update Parsing
+description: ""
+protoFileId: pf_610d3e9b69d74603ad5dfdc051e90a59
+protoMethodName: /proto.ParsingService/UpdateParsing
+metadata: []
+body:
+  text: |-
+    {
+    	"uuid": "8fbe76a8-5097-40c3-88a8-708556f9f709",
+    	"chartsKit": "777be573-e6eb-4766-aee8-4a4bb9c24dcd",
+    	"error": "unknown error",
+    	"complete": true
+    }
+metaSortKey: -1638854646320.75
+isPrivate: false

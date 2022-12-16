@@ -1,0 +1,64 @@
+_id: req_adc57767b74740eb93756162f9a97bf5
+type: Request
+parentId: fld_b015382180c4437e881ff2cfe3b42991
+modified: 1671194511977
+created: 1671194511977
+url: "{{ _.url.bai_api }}/route/fpl/lite"
+name: Create Lite Route
+description: ""
+method: POST
+body: {}
+parameters:
+  - name: name
+    value: ВОЛГОГРАД/ГУМРАК-АСТРАХАНЬ
+    description: ""
+    id: pair_7aaa0c09412d42608b1f34f5ea1488e2
+  - name: route
+    value: "URWW WLG SL #(ZAMAN, 48.047222, 46.719444) #(BUZAN, 46.761111,
+      48.025000) URWA"
+    description: ""
+    id: pair_226565661bd7449ab93b8a23692238fe
+  - name: expiryDate
+    value: 2023-05-09
+    description: ""
+    id: pair_ccfde7f710a545378e58dfe698e57959
+    disabled: false
+  - name: users[]
+    value: ""
+    description: ""
+    id: pair_4e18c3f051764497a411809432ff36b4
+    disabled: true
+  - name: users[]
+    value: "2"
+    description: ""
+    id: pair_6a867c86b2c74925a4e25111d41753bb
+    disabled: false
+  - name: users[]
+    value: '"70"'
+    description: ""
+    id: pair_b56ff9e2c4c74b9bb19405fe7be0ca69
+    disabled: true
+  - id: pair_cb686c4aaac14687b812de531f97d108
+    name: users[]
+    value: "'3'"
+    description: ""
+    disabled: true
+  - id: pair_9113aaadbcd645fe83aeba11cbc5521c
+    name: companyId
+    value: "1"
+    description: ""
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1581553217004.33
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

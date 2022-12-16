@@ -1,0 +1,52 @@
+_id: req_64760f2a108549fca641182a4dbda6a8
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512033
+created: 1671194512033
+url: "{{ _.url.bai_api }}/airport?showDisabled=true&search=ulli"
+name: airport
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_0e35187ff1db449c91408afcd3374225
+    name: companies[]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_9bd1cb1af6a0466e83a5ae7095a7c8bc
+    name: companies[]
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_1815a7783fcd41ca83f11f53036fa483
+    name: date
+    value: 2022-12-08
+    description: ""
+    disabled: false
+headers:
+  - id: pair_50e38991236f46ec9d3f1aecd00c8148
+    name: Authorization1
+    value: Bearer {% response 'body', 'req_00847d0ebc86464d928cc023f0286e8b',
+      'b64::JC50b2tlbg==::46b', 'always', 60 %}
+    description: ""
+    disabled: false
+  - id: pair_96950577cdad43a7a463c08861ab8b4c
+    name: idempotent-key
+    value: 6bdff16d-9975-4690-a89a-7e7606f4dac6
+    description: ""
+    disabled: false
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1629093906841.8203
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

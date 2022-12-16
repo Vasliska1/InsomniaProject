@@ -1,0 +1,44 @@
+_id: req_94e732b40a1447e7ad7fabba72185332
+type: Request
+parentId: fld_7122a31082fd44b09fd74ec3bd01ddf3
+modified: 1671194511959
+created: 1671194511959
+url: http://localhost:8000/api/parsing/chartskit/19189c02-eedc-471c-b92d-b996d7d0bd0c/pdf
+name: Parse Charts From Pdf
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_07017c6ad2024bef856f7e73fcc77565
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/vrlmv/Documents/Study/Семетр 10/Беспрозванных/Черновик.pdf
+      disabled: false
+    - id: pair_4e029b00abd243a3bbcac4a19594c118
+      name: tailored
+      value: "112"
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8c46421aa1574afda34a0c3c91e1ca9b
+    disabled: false
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: 6g03x3
+metaSortKey: -1639468081262
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

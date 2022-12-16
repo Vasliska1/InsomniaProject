@@ -1,0 +1,37 @@
+_id: req_3f21a218ea244861b464041ad2563b8b
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512016
+created: 1671194512016
+url: "{{ _.url.bai_api
+  }}/chartskit/airport/b8395f0b-04db-4a7a-8d83-5433af9313dd/list"
+name: ChartsKits by airport
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_0e35187ff1db449c91408afcd3374225
+    name: companies[]
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_9bd1cb1af6a0466e83a5ae7095a7c8bc
+    name: companies[]
+    value: "2"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1629093919122.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

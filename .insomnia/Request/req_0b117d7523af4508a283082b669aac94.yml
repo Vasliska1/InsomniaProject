@@ -1,0 +1,39 @@
+_id: req_0b117d7523af4508a283082b669aac94
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512010
+created: 1671194512010
+url: "{{ _.url.bai_api }}/chartskit/1df0a201-1389-4589-b844-fe14a7bb1b19"
+name: Get chartsKit
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_78fb9a926be343f68c2e4f3657a3d57d
+    name: tailored
+    value: "1"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_2954374115de41cb8dc63ae7626ff176
+    name: Authorization1
+    value: Bearer {% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+      'b64::JC50b2tlbg==::46b', 'always', 60 %}
+    description: ""
+    disabled: true
+  - id: pair_cd75363233da48918152d39433b4ee32
+    name: idempotent-key
+    value: "1"
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1630130811581.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

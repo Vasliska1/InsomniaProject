@@ -1,0 +1,52 @@
+_id: req_2d8398aa97d04433a330995938e80dcf
+type: Request
+parentId: fld_2cbaf02613d54753b4eab9632300e29c
+modified: 1671194511848
+created: 1671194511848
+url: "{{ _.url.eaip_api }}/notam/search"
+name: Search NOTAM
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"offset":0,
+    	"limit":200,
+    	
+    	"series":[
+    		{
+    			"name":"А",
+    			"packageId":84
+    		}
+    	],
+    	
+    	"region":["ULLL"],
+    	
+    	"areas":["ULLI"],
+    	"forAllAirportHeliport":false,
+    	
+    	"traffic":["IFR", "VFR"],
+    	
+    	"startDate":"2021-04-07 00:00:00",
+    	"endDate":"2021-04-14 00:00:00",
+    	"overdue":false,
+    	"permanent":false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_95856f1763cc475eb3d558880612310e
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'when-expired', 30 %}"
+metaSortKey: -1617798857262
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

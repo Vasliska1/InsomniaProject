@@ -1,0 +1,81 @@
+_id: req_afa54ec93c2647d8af2342250fc8474f
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511822
+created: 1671194511822
+url: "{{ _.url.bai_api }}/pib"
+name: Create Bulletin Airport
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+          "id": "4617e26e-5c3a-44c3-9a8b-8dc99144d013",
+    			"name": "Test Bulletin #1",
+    			"description": "Test description",
+    			"isCompany": false,
+    			"languageNotam": "BOTH",
+    			"languageBulletin": "ENG",
+    			"airportHeliportSearch": [
+    				{
+    					"locationIndicatorICAO": "ULLI",
+    					"destination": "NO_TYPE",
+    					"flightRules": "IFR",
+    					"isUnessentialNotam": false,
+    					"isMilitaryNotam": false,
+    					"period": {
+    						"start": "2020-08-18 10:00:00",
+    						"end": null
+    					}
+    				},
+    				{
+    					"locationIndicatorICAO": "UUDD",
+    					"destination": "NO_TYPE",
+    					"flightRules": "IFR",
+    					"isUnessentialNotam": false,
+    					"isMilitaryNotam": false,
+    					"period": {
+    						"start": "2020-08-18 10:00:00",
+    						"end": null
+    					}
+    				},
+    				{
+    					"locationIndicatorICAO": "UTTT",
+    					"destination": "NO_TYPE",
+    					"flightRules": "IFR",
+    					"isUnessentialNotam": false,
+    					"isMilitaryNotam": false,
+    					"period": {
+    						"start": "2020-08-18 10:00:00",
+    						"end": null
+    					}
+    				}
+    			],
+    			"areaSearch": [
+    	
+    			],
+    			"period": {
+    				"start": "2020-08-18 10:00:00",
+    				"end": null
+    			}
+    }
+parameters: []
+headers:
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: letunv01
+  password: letunv01
+metaSortKey: -1581553216984.0176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

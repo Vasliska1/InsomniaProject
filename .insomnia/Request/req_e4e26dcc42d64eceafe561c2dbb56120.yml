@@ -1,0 +1,46 @@
+_id: req_e4e26dcc42d64eceafe561c2dbb56120
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511921
+created: 1671194511921
+url: http://localhost:8000/api/chartskit
+name: Create ChartsKit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"uuid": "777be573-e6eb-4766-aee8-4a4bb9c24dcd",
+    	"name": "Test",
+    	"company": "1",
+    	"district": "5c21b67e-576c-4f6c-a2d5-f880eabd1f0b",
+    	"airportHeliport": {
+    		"uuid": "111be111-e6eb-4766-aee8-4a4bb9c24dcd",
+    		"type": "LS",
+    		"controlType": "CIVIL",
+    		"locationIndicatorICAO": "UUDD",
+    		"location": {
+    			"latitude": 33.33,
+    			"longitude": 43.43
+    		}
+    	}
+    }
+parameters:
+  - id: pair_aca9d85ae5db459ab6e3f44a3b702b8f
+    name: replicateCharts
+    value: "true"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f4538c334f374934a7825c2bc0145300
+authentication: {}
+metaSortKey: -1629442335223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

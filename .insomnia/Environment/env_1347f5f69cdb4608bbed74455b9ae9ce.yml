@@ -1,0 +1,23 @@
+_id: env_1347f5f69cdb4608bbed74455b9ae9ce
+type: Environment
+parentId: env_54e5fd8c39e547839cf354ce2b3ded74
+modified: 1671194511768
+created: 1671194511768
+name: Staging [staging.baionline.ru]
+data:
+  url:
+    bai: http://old.staging.baionline.ru
+    bai_api: "{{ _.url.bai }}/api"
+    eaip: http://eaip.old.staging.baionline.ru
+    eaip_api: "{{ _.url.eaip }}/api"
+dataPropertyOrder:
+  "&":
+    - url
+  "&~|url":
+    - bai
+    - bai_api
+    - eaip
+    - eaip_api
+color: "#42ff58"
+isPrivate: false
+metaSortKey: 1619768913061

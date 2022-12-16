@@ -1,0 +1,21 @@
+_id: req_f1990434ea894b5bb369a01c72c7b4e5
+type: Request
+parentId: fld_fec7d28fa4644ed3a9321565b38783d1
+modified: 1671194511969
+created: 1671194511969
+url: http://localhost:8087/api/v1/snowtam/push/token?device=4F547086-3348-4518-9D49-73919B341DC2
+name: Get Token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648549353340
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

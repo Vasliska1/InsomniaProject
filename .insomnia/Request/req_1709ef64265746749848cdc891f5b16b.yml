@@ -1,0 +1,39 @@
+_id: req_1709ef64265746749848cdc891f5b16b
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511924
+created: 1671194511924
+url: http://localhost:8000/api/chartskit/777be573-e6eb-4766-aee8-4a4bb9c24dcd
+name: Update ChartsKit
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Test Updated",
+    	"district" : "455be573-beef-4608-8409-17cc3f090c19",
+    	"airportHeliport": {
+    		"type": "LS",
+    		"controlType": "CIVIL",
+    		"locationIndicatorICAO": "UUDD",
+    		"location": {
+    			"latitude": 33.33,
+    			"longitude": 43.43
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e9c8b5cc5e12446e8b373d2e1866f021
+authentication: {}
+metaSortKey: -1629442335198
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

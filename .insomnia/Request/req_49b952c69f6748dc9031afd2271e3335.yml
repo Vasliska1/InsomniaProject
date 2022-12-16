@@ -1,0 +1,21 @@
+_id: req_49b952c69f6748dc9031afd2271e3335
+type: Request
+parentId: fld_83668d691e5d4541848980d13fc0f446
+modified: 1671194511956
+created: 1671194511956
+url: http://localhost:8000/api/district/8c773837-d335-407a-943a-c720f6b130cd
+name: Delete District
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629893946583.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

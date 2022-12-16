@@ -1,0 +1,46 @@
+_id: req_57b8051dedc74c28a01cde6c5f758314
+type: Request
+parentId: fld_62ef7d0f7ed440aea400e5bc0df68348
+modified: 1671194511863
+created: 1671194511863
+url: "{{ _.url.bai_api }}/general/documents"
+name: Get Documents
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Application-platform
+    value: iOS
+    description: ""
+    id: pair_bd078703f510480cbf94a5ef0ea50f36
+  - name: " Content-Type"
+    value: application/json
+    description: ""
+    id: pair_cbee83364f0c47ef817884dabc60d628
+  - name: X-Application-name
+    value: SmartSky Pro
+    description: ""
+    id: pair_2fc576a4aeba43aca79962b22540cf57
+  - name: X-Application-build
+    value: "154"
+    description: ""
+    id: pair_372849d257eb4ecd8f00e84db8d7ef48
+  - name: X-Application-version
+    value: " 1.5.0"
+    description: ""
+    id: pair_b23a169b42184e2d8d5c30df4b1c568e
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1616139375682.6094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

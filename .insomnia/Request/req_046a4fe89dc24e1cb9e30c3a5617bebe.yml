@@ -1,0 +1,34 @@
+_id: req_046a4fe89dc24e1cb9e30c3a5617bebe
+type: Request
+parentId: fld_3b8c0b7152744ebeadb9fbf2b285dda6
+modified: 1671194512051
+created: 1671194512051
+url: "{{ _.url.bai_api }}/district"
+name: Create District
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "uuid": "1c2ab67e-576c-4ffc-a2df-f880eabecf0b",
+      "name": "Дальневосточный ФО",
+      "parent": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_52faa067578d4707826e7146e7da247d
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1629651852963
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

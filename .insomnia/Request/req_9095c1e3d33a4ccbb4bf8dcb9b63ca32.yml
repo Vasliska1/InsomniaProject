@@ -1,0 +1,40 @@
+_id: req_9095c1e3d33a4ccbb4bf8dcb9b63ca32
+type: Request
+parentId: fld_b015382180c4437e881ff2cfe3b42991
+modified: 1671194511988
+created: 1671194511988
+url: "{{ _.url.bai_api }}/route/fpl/aerolocia/Russia/txt"
+name: Create Route From Txt Aerolocia Russia
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /home/vasilisa/Documents/OFP/russia.txt
+parameters:
+  - name: id
+    value: asdasd
+    description: ""
+    id: pair_7aaa0c09412d42608b1f34f5ea1488e2
+  - id: pair_c436f5f9634e4beeac391339d64e86f6
+    name: companyId
+    value: "4"
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: text/plain
+    id: pair_ccf1554dc36b4ac1a3c81cfc24e2c64b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: letunv01
+  password: letunv01
+metaSortKey: -1581553217005.1724
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

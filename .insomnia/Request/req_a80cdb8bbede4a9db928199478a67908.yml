@@ -1,0 +1,30 @@
+_id: req_a80cdb8bbede4a9db928199478a67908
+type: Request
+parentId: fld_83668d691e5d4541848980d13fc0f446
+modified: 1671194511955
+created: 1671194511955
+url: http://localhost:8000/api/district/337c237e-532c-4ffc-k12j-ff3l22dvcj0b
+name: Update District
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Test",
+    	"parent": "555c237e-532c-4211c-k12j-ff3l22dvcj0b"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8cdbe896f5ad4ef6af943dbf05b24781
+authentication: {}
+metaSortKey: -1629894824486
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

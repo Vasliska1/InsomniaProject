@@ -1,0 +1,49 @@
+_id: req_9273b0ff43144d25a529bc19954607b2
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511841
+created: 1671194511841
+url: "{{ _.url.bai_api }}/landing?search=USHN"
+name: LANDING
+description: |-
+  Параметры:
+  - ID бюллетеня;
+  - ID подготовленного слепка бюллетеня.
+method: GET
+body: {}
+parameters:
+  - id: pair_07332e3d09124e619482eb26aea395f3
+    name: merge
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_55d810c10a5a4175a31470da4f078b40
+    name: format
+    value: Aggregated
+    description: ""
+    disabled: true
+  - id: pair_53b74d78bce74685b8d840c19faded16
+    name: merge
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_32b3e7b3bcb74255ae0585d38261cf31
+    name: indicator
+    value: "true"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "110822"
+  password: "110822"
+metaSortKey: -1581553216998.8613
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

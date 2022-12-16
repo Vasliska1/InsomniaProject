@@ -1,0 +1,38 @@
+_id: req_d62663ed724d4be48389c82eada9d026
+type: Request
+parentId: fld_dca8219017a94313b77115991430e447
+modified: 1671199677259
+created: 1671194511903
+url: "{{ _.url.bai_api }}/flydrone/aero-data"
+name: List Aerodata
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{% response 'body', 'req_0a0fd7f29b89486198b70085a8e1804d',
+      'b64::JA==::46b', 'always', 60 %}"
+    description: ""
+    id: pair_5646044f1a2942f6aaaf1d6421f052b7
+    disabled: true
+headers:
+  - id: pair_9873b05a79c84133beb07c2f8ebd3367
+    name: Authorization
+    value: Bearer
+      "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYzNiYmNjYTUtNjZmNy00ZGJhLTgxMWItNjFjMzY5YjIwNTZiIiwiZXhwIjoxNjcxMTk3MzIyLCJpYXQiOjE2NzExOTM3MjJ9.vrP-nyz5SrZpJCY8DqsZ-qs6Uco-hEt9jyYLteK079JZVwV4QpOKZ0k1Y04ep24IBiIBnVXT0iImh3EOrZv2xf5j3hsPIB-y5AA6H0wR3yTvrwv-3soV5Y8wRJkhxyws8qFZygj-i3yp6-AA0bvqTq2Vec4-vgYgP_WIVm0nR27RIMMv3czilDLj-Z7LGn-HQmhFh4MmZRRkFYc9TEw7GeDh96xEGXEYQUnhX_GxjF9E9p0OcTXlrzf9UWrxH0cTXmR0d7KSS2MbRlWLH7n5PIdvoIeyg6k0k20w4zC3DgEGstGly7V2JaPzdj6asdirxomfQkYWUALt5CRKUqne704ks1jM7JAi53M-fLcvGvmcV4VQOJJ892sLtxyfpmMUt3-u36OZAVMzP-pC1862hbX_nhmQmUCxHXt2StyxvWX7FaqPu8n0h1mRn5F7T_JCvtF1dUpbEXEOX_98z_pg-9ooPGnsfdsUbaQH67EegsqydKG8vwdaVQFkyO1SobZY_aENQhp16z5AETcfxYux1WBhv9XUXewupwXwhimzQdNmJs0yd5ztJHJukQmb6m2d6Y5UERcmexnzlVhg2R_VKmpZk6efUnjCJerdcR6Ajby96sgoEQncR9XrFDRv2KLFSUMS3Dc0Hhs-fL0HJXpGwiZZbUgjHhKCtd4CftWRpVo
+    description: ""
+    disabled: true
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1618550309499.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

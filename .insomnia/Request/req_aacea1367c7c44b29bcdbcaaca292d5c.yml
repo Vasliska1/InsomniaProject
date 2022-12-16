@@ -1,0 +1,29 @@
+_id: req_aacea1367c7c44b29bcdbcaaca292d5c
+type: Request
+parentId: fld_9363bdd282884f559daebf529786bff6
+modified: 1671194511910
+created: 1671194511910
+url: "{{ _.url.bai_api }}/navdata/download"
+name: Download
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{% response 'body', 'req_0a0fd7f29b89486198b70085a8e1804d',
+      'b64::JA==::46b', 'always', 60 %}"
+    description: ""
+    id: pair_5646044f1a2942f6aaaf1d6421f052b7
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1619301761737.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

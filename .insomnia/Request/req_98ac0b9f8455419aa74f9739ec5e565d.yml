@@ -1,0 +1,36 @@
+_id: req_98ac0b9f8455419aa74f9739ec5e565d
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511927
+created: 1671194511927
+url: http://localhost:8000/api/chartskit/airport/65d71bdd-f07a-422b-96eb-c9530e62cd0e/list
+name: Get Airport ChartsKit List
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_f630641870b34faab60f70bbc54b13a2
+    name: companies[]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_1d205ec4e0004af8b694139c7f506e79
+    name: companies[]
+    value: "58"
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2d038b4d5af94e02b8d80c2991c99040
+authentication: {}
+metaSortKey: -1629442335073
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

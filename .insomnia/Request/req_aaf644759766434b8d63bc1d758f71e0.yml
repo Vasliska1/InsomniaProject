@@ -1,0 +1,40 @@
+_id: req_aaf644759766434b8d63bc1d758f71e0
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512032
+created: 1671194512032
+url: "{{ _.url.bai_api }}/chartskit/amendment/211be111-e6eb-4766-aee8-4a4bb9c24dc5"
+name: Amendment changes
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_0e35187ff1db449c91408afcd3374225
+    name: company
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_9bd1cb1af6a0466e83a5ae7095a7c8bc
+    name: date
+    value: 2023-05-05
+    description: ""
+    disabled: false
+headers:
+  - id: pair_15466a7537914c90bb6f8451e32ce69f
+    name: idempotent-key
+    value: "1"
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1629093882279.711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

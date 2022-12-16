@@ -1,0 +1,50 @@
+_id: req_a5d377d9a29141eb82e7aded4c874053
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512013
+created: 1671194512013
+url: "{{ _.url.bai_api }}/chartskit/e192ca79-c4c6-4b36-ba4e-0ff029f85fd0"
+name: Update chartsKit
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {"uuid":"e192ca79-c4c6-4b36-ba4e-0ff029f85fd0",
+     "name":"Hong Kong",
+     "type":"AD",
+     "controlType":"CIVIL",
+     "district":"5c2ab67e-576c-4ffc-a2df-f880eabecf0b",
+     "airportHeliport":
+     {"uuid":"7ed4137c-7da3-49d5-b7e8-7dfd3a5e4352",
+    	"type":"AD",
+    	"controlType":"CIVIL",
+    	"locationIndicatorICAO":"VHHH",
+    	"location":null},
+     "flightRules":"IFR",
+     "timeSlice":
+     {"beginPosition":"2022-02-24",
+    	"endPosition":null,
+    	"correctionNumber":0},
+     "company":"1"}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aef9709570574c529a9aa13324b19e00
+  - id: pair_7ac0e1d23b7d4dc39ce2dd8fe3253f6a
+    name: idempotent-key
+    value: 6bdff16d-9975-4690-a89a-7e7606f4dac6
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1629257665260
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

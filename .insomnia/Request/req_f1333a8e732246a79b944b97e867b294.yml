@@ -1,0 +1,89 @@
+_id: req_f1333a8e732246a79b944b97e867b294
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511824
+created: 1671194511824
+url: "{{ _.url.bai_api }}/pib"
+name: Create Bulletin Track
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+          "id": "6617e26e-5c3a-44c3-9a8b-8dc99144d0f1",
+    			"name": "Test Bulletin #1",
+    			"description": "Test description",
+    			"isCompany": false,
+    			"languageNotam": "BOTH",
+    			"languageBulletin": "RUS",
+    			"excludeUnscheduled": true,
+    			"airportHeliportSearch": [
+    				{
+    					"locationIndicatorICAO": "ULLI",
+    					"destination": "DEPARTURE",
+    					"flightRules": "IFR",
+    					"isUnessentialNotam": false,
+    					"isMilitaryNotam": false,
+    					"period": {
+    						"start": "2020-08-18 10:00:00",
+    						"end": null
+    					}
+    				},
+    				{
+    					"locationIndicatorICAO": "UUDD",
+    					"destination": "ARRIVAL",
+    					"flightRules": "IFR",
+    					"isUnessentialNotam": false,
+    					"isMilitaryNotam": false,
+    					"period": {
+    						"start": "2020-08-18 10:00:00",
+    						"end": null
+    					}
+    				},
+    				{
+    					"locationIndicatorICAO": "UTTT",
+    					"destination": "ALTERNATE",
+    					"flightRules": "IFR",
+    					"isUnessentialNotam": false,
+    					"isMilitaryNotam": false,
+    					"period": {
+    						"start": "2020-08-18 10:00:00",
+    						"end": null
+    					}
+    				}
+    			],
+    			"areaSearch": [
+    				{
+    					"locationIndicatorICAO": "UIII",
+    					"flightRules": "IFR",
+    					"isUnessentialNotam": false,
+    					"isMilitaryNotam": false,
+    					"period": {
+    						"start": "2020-08-18 10:00:00",
+    						"end": null
+    					}
+    				}
+    			],
+    			"period": {
+    				"start": "2020-08-18 10:00:00",
+    				"end": null
+    			}
+    }
+parameters: []
+headers:
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 30 %}"
+metaSortKey: -1581553216909.1885
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

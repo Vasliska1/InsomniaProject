@@ -1,0 +1,50 @@
+_id: req_74b661d4e417405e9f2155385215f11c
+type: Request
+parentId: fld_b015382180c4437e881ff2cfe3b42991
+modified: 1671194512004
+created: 1671194512004
+url: "{{ _.url.bai_api }}/route/fpl/aerolocia/krasavia/txt"
+name: Create Route From krasavia
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /home/vasilisa/Downloads/CFP-20221202-SSJ153-UNKM-UNIB.txt
+parameters:
+  - name: id
+    value: asdasd
+    description: ""
+    id: pair_7aaa0c09412d42608b1f34f5ea1488e2
+    disabled: true
+  - id: pair_c436f5f9634e4beeac391339d64e86f6
+    name: companyId
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_ae07ee6a28544f6aa10108c36402ff63
+    name: expiryHours
+    value: "4"
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: text/plain
+    id: pair_ccf1554dc36b4ac1a3c81cfc24e2c64b
+  - id: pair_09e357e622b14d1e91931cbb2090a44d
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1581553217004.8901
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,50 @@
+_id: req_3de565ddcf4c484d8adb882bc0f2afe8
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511835
+created: 1671194511835
+url: "{{ _.url.bai_api
+  }}/pib/ed671485-3527-425d-8db8-b10e305f69e6/stamp/b30d7746-78d9-47e9-ad74-845\
+  3ee7620fd/pdf"
+name: Get Bulletin Stamp 2
+description: |-
+  Параметры:
+  - ID бюллетеня;
+  - ID подготовленного слепка бюллетеня.
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_07332e3d09124e619482eb26aea395f3
+    name: merge
+    value: "true"
+    description: ""
+  - id: pair_55d810c10a5a4175a31470da4f078b40
+    name: format
+    value: Aggregated
+    description: ""
+    disabled: true
+  - id: pair_53b74d78bce74685b8d840c19faded16
+    name: merge
+    value: "true"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "110822"
+  password: "110822"
+metaSortKey: -1581553216999.6426
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

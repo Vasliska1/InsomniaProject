@@ -1,0 +1,36 @@
+_id: req_45bb4f4732c84aed9a721094e9d2d55c
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512015
+created: 1671194512015
+url: "{{ _.url.bai_api }}/chartskit/4c5a7cb2-1fb0-41e7-93d7-d360cca392a9/publish"
+name: Publish chartsKit
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2023-03-28"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4ed4371266034a57a29b31f107f8acd9
+  - id: pair_f707394899914201ad1c49723067d1c7
+    name: idempotent-key
+    value: 6bdff16d-9975-4690-a89a-7e7606f4dac6
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1629094115619.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

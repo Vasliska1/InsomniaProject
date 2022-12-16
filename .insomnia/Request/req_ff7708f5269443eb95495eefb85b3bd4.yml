@@ -1,0 +1,26 @@
+_id: req_ff7708f5269443eb95495eefb85b3bd4
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511946
+created: 1671194511946
+url: http://localhost:8000/api/chartskit/chart/c2ede99a-768a-4306-9a41-04e59545ef2d
+name: Get ChartsKit By Chart
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2d038b4d5af94e02b8d80c2991c99040
+authentication: {}
+metaSortKey: -1629442335098
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,47 @@
+_id: req_7b6308a2f5dd44e791000570f3940a0d
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511811
+created: 1671194511811
+url: "{{ _.url.bai_api }}/pib/{% response 'body',
+  'req_686d82b90c6f4cc5ac1d668a406d1791', 'b64::JC5idWxsZXRpbnNbMF0uaWQ=::46b',
+  'when-expired', 60 %}/stamp/{% response 'body',
+  'req_4fa2c739f8de41209ad47e42e0620474',
+  'b64::JC5idWxsZXRpbi5zdGFtcHNbMF0uaWQ=::46b', 'when-expired', 60 %}/pdf"
+name: Get Bulletin Pdf
+description: |-
+  Параметры:
+  - ID бюллетеня;
+  - ID подготовленного слепка бюллетеня.
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_4aa93510c21147f697ff32be0bdca291
+    name: type
+    value: default
+    description: ""
+  - id: pair_afba0c0ba5974331b6ffa8788ee1d1cd
+    name: format
+    value: Aggregated
+    description: ""
+    disabled: true
+headers:
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1581553216996.5176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

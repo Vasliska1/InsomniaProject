@@ -1,0 +1,74 @@
+_id: req_57746599ba664ad69fe8a91637d25aca
+type: Request
+parentId: fld_2cbaf02613d54753b4eab9632300e29c
+modified: 1671194511854
+created: 1671194511854
+url: http://baionline.localhost/ru/map/route/157d3a50-0320-4ab7-9061-702f8a7e4be9
+name: Save route
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_dbbb6c2a39d14c52a297e1e3dc9a7960
+    name: route[]
+    value: 157d3a50-0320-4ab7-9061-702f8a7e4be9
+    description: ""
+    disabled: true
+  - id: pair_f097d5d77bd443658ffa0a92919b97e8
+    name: route[elements]
+    value: '[{"point":{"geom":{"latitude":61.14463950951571,"longitude":34.198733539666364}}},{"point":{"geom":{"latitude":61.13948732551202,"longitude":34.207970943061355}}},{"point":{"geom":{"latitude":61.1397297849193,"longitude":34.21816989410195}}},{"point":{"geom":{"latitude":61.135774666197904,"longitude":34.21833876634332}}},{"point":{"geom":{"latitude":61.13472200000001,"longitude":34.2275},"class":"POI","key":"ТОК
+      1"}}]'
+    description: ""
+    disabled: true
+  - id: pair_0f44dfb05d084da4a9a973c164d2ba2e
+    name: route[name]
+    value: 6108N3411E - ТОК 1
+    description: ""
+    type: text
+    multiline: false
+    disabled: true
+  - id: pair_cd49bca0bc7e44cc91764fdb2884844b
+    name: route[aircraft]
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_1dee15cf67f1411a822733047f753b50
+    name: route[speed]
+    value: "0"
+    description: ""
+    disabled: true
+  - id: pair_f10f21fd341e41c49e15245dee761b19
+    name: route[unitsSpeed]
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_ad6a7461bd3f4a6a81682ed9bc7e9519
+    name: route[altitude]
+    value: "0"
+    description: ""
+    disabled: true
+  - id: pair_89fa3f916906420084ca1f728aeaa6fd
+    name: route[unitsAltitude]
+    value: "0"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_0d5e531d6b864f02806410811986db89
+    name: format
+    value: .json
+    description: ""
+    disabled: true
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1617176551672.0723
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

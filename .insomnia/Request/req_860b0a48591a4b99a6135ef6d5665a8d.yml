@@ -1,0 +1,26 @@
+_id: req_860b0a48591a4b99a6135ef6d5665a8d
+type: Request
+parentId: fld_7f649c9c6f9d42d29155ac29d6411085
+modified: 1671194511790
+created: 1671194511790
+url: "{{ _.url.bai_api }}/user"
+name: Base Auth
+description: Пример успешной аутентификации по средствам Base Auth тоукена.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: letunv01
+  password: letunv01
+metaSortKey: -1583838089937.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

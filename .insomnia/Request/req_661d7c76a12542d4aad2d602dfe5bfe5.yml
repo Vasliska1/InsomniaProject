@@ -1,0 +1,64 @@
+_id: req_661d7c76a12542d4aad2d602dfe5bfe5
+type: Request
+parentId: fld_2cbaf02613d54753b4eab9632300e29c
+modified: 1671194511850
+created: 1671194511850
+url: "{{ _.url.bai }}/notam/map/4569e454-848b-406e-ab5d-517547978271"
+name: Get Map
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"offset":0,
+    	"limit":200,
+    	
+    	"series":[
+    		{
+    			"name":"А",
+    			"packageId":84
+    		}
+    	],
+    	
+    	"region":["ULLL"],
+    	
+    	"areas":["ULLI"],
+    	"forAllAirportHeliport":false,
+    	
+    	"traffic":["IFR", "VFR"],
+    	
+    	"startDate":"2021-04-07 00:00:00",
+    	"endDate":"2021-04-14 00:00:00",
+    	"overdue":false,
+    	"permanent":false
+    }
+parameters:
+  - id: pair_7c23984b122a4244a805a2aaab8d2c6e
+    name: format
+    value: json
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_95856f1763cc475eb3d558880612310e
+  - id: pair_0d5e531d6b864f02806410811986db89
+    name: format
+    value: .json
+    description: ""
+    disabled: true
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1617383986868.7148
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

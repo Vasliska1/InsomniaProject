@@ -1,0 +1,36 @@
+_id: req_110063468ca94d8ba7d566ee15c457bb
+type: Request
+parentId: fld_2cbaf02613d54753b4eab9632300e29c
+modified: 1671194511859
+created: 1671194511859
+url: "{{ _.url.bai_api }}/notam/count"
+name: count notam
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_7c23984b122a4244a805a2aaab8d2c6e
+    name: format
+    value: json
+    description: ""
+    disabled: true
+headers:
+  - id: pair_0d5e531d6b864f02806410811986db89
+    name: format
+    value: .json
+    description: ""
+    disabled: true
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1617332128069.5542
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

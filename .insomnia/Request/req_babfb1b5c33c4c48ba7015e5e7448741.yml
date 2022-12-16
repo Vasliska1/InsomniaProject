@@ -1,0 +1,38 @@
+_id: req_babfb1b5c33c4c48ba7015e5e7448741
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511839
+created: 1671194511839
+url: "{{ _.url.bai_api }}/pib/4ef55ba1-2c89-4c62-a343-0d9b711bd2b8/stamp"
+name: Bulletin Stamp save
+description: |-
+  Параметры:
+  - ID бюллетеня;
+  - ID подготовленного слепка бюллетеня.
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_c1e6346ef7f343c2bae7809f2112dc16
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1581553216998.08
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

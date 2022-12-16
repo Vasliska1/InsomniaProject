@@ -1,0 +1,43 @@
+_id: req_f7dc7627b54345f8922734db6e876f2f
+type: Request
+parentId: fld_9363bdd282884f559daebf529786bff6
+modified: 1671199790024
+created: 1671194511912
+url: "{{ _.url.bai_api
+  }}/flydrone/aero-data/map/aca0e912-6c24-4cda-aa6e-cd0ed7774f68"
+name: "Map "
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{% response 'body', 'req_0a0fd7f29b89486198b70085a8e1804d',
+      'b64::JA==::46b', 'always', 60 %}"
+    description: ""
+    id: pair_5646044f1a2942f6aaaf1d6421f052b7
+    disabled: true
+  - id: pair_3b4f031efc8e46a5963cbfe246b5dc36
+    name: language
+    value: ru
+    description: ""
+    disabled: true
+  - id: pair_becf1b9d96974f269a33cb883e26155f
+    name: format
+    value: json
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1636435972076.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

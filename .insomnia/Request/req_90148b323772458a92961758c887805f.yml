@@ -1,0 +1,49 @@
+_id: req_90148b323772458a92961758c887805f
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511809
+created: 1671194511809
+url: "{{ _.url.bai_api }}/pib/cfp/arinc-633-2"
+name: Create Bulletin from CFP
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /home/getsky/Downloads/flightplan.xml
+parameters:
+  - description: ""
+    disabled: false
+    id: pair_10bc6dfcbb2845c9bc443f373cd5da75
+    name: isCompany
+    value: "false"
+  - description: ""
+    disabled: false
+    id: pair_23a6e686c2ac4bbe9dc62f5a427ffe8d
+    name: isMilitaryNotam
+    value: "true"
+  - description: ""
+    disabled: true
+    id: pair_3f4b9467c6f14719910b3d24014692b9
+    name: languageBulletin
+    value: ENG
+  - description: ""
+    disabled: false
+    id: pair_cbc9ef61293c4fee9b8260d5cd31c1ac
+    name: flightRules
+    value: IFR
+headers:
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/xml
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 30 %}"
+metaSortKey: -1581553216884.0176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

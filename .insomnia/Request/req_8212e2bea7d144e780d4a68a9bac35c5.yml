@@ -1,0 +1,31 @@
+_id: req_8212e2bea7d144e780d4a68a9bac35c5
+type: Request
+parentId: fld_71d20f1f219f48149ae8aab80a0d6af0
+modified: 1671194512092
+created: 1671194512092
+url: "{{ _.url.bai_api
+  }}/cartography/timeslice/f335b565-1b33-4309-87ed-ba3154d033e1/download"
+name: Download
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e08b3b91c6cd4b93a411e5d5481cd439
+    name: key
+    value: 72f99345a2222a09
+    description: ""
+headers: []
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: albutov
+  password: "123456"
+metaSortKey: -1630313869500.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

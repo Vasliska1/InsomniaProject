@@ -1,0 +1,29 @@
+_id: req_fdd5097570a04cbb90d93199b11a90b2
+type: Request
+parentId: fld_98a5d13d84c54fc48f63fc6e9d78c893
+modified: 1671194511874
+created: 1671194511874
+url: "{{ _.url.eaip_api }}"
+name: Get list of documents
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    id: pair_289943acbd844e788a20c51ea00b6e61
+    name: locationIndicatorICAO
+    value: ULLI
+  - description: ""
+    id: pair_a9f738a06d26473a8a1a3bfe9122abdf
+    name: language
+    value: RUS
+headers: []
+authentication: {}
+metaSortKey: 650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_2cab42fe0a894087bd91af72ed51fbda
+type: Request
+parentId: fld_62ef7d0f7ed440aea400e5bc0df68348
+modified: 1671194511865
+created: 1671194511865
+url: "{{ _.url.bai_api }}/general/documents/{% response 'body',
+  'req_c3f6f10bee6f48ea91fb01d28b988ad1',
+  'b64::JC5kb2N1bWVudHNbMF0udXVpZA==::46b', 'never', 60 %}"
+name: Get Document
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 30 %}"
+metaSortKey: -1616139375679.4844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,49 @@
+_id: req_aff1b1af694543b393a619d85c245232
+type: Request
+parentId: fld_b37f29cd7de5462ea9aea3e8d7f23d6a
+modified: 1671194512064
+created: 1671194512064
+url: "{{ _.url.bai_api }}/v2/documents"
+name: Create a document
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_3f1f07aa49d44264a8ad16e9f5882795
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/vrlmv/Pictures/23.jpeg
+    - id: pair_fdf1595daa21485e828297ecf373200f
+      name: document
+      value: |-
+        {
+          "uuid": "c6bd225d-33ba-43ef-acfd-c1f17e723004",
+        	"catalogUuid": "c6bd225d-33ba-43ef-acfd-c1f17e723041",
+        	"isCompany": true,
+        	"name": "loll",
+        	"draft": true,
+        	"startDate": "2022-01-01"
+        }
+      description: ""
+      type: text
+      multiline: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_9c6aeae965bc4ab9b0f5ca058573b17d
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1634840843946
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

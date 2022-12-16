@@ -1,0 +1,33 @@
+_id: req_b13d6bde2ebe4970bafb6afcf7a340e3
+type: Request
+parentId: fld_49193e32bca04804b2ea369299f57779
+modified: 1671194511800
+created: 1671194511800
+url: "{{ _.url.bai_api }}/meteo"
+name: Get meteo by locationIndicatorICAO
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: '{"index": "ULLI"}'
+parameters:
+  - name: index
+    value: ulli
+    description: ""
+    id: pair_7f4890a1727b447aaf74d74642cb7669
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b4f30386dec448f4809d70c5229ab2b6
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'when-expired', 30 %}"
+metaSortKey: -1599474756774
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

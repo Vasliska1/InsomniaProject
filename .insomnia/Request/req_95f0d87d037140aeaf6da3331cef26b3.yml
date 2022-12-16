@@ -1,0 +1,25 @@
+_id: req_95f0d87d037140aeaf6da3331cef26b3
+type: Request
+parentId: fld_7f649c9c6f9d42d29155ac29d6411085
+modified: 1671194511787
+created: 1671194511787
+url: "{{ _.url.bai_api }}/user"
+name: "[JWT] User's information"
+description: |
+  Получение информации об авторизированном пользователи.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 30 %}"
+metaSortKey: -1583838089887.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

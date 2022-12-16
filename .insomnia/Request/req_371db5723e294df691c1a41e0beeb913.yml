@@ -1,0 +1,63 @@
+_id: req_371db5723e294df691c1a41e0beeb913
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512018
+created: 1671194512018
+url: https://staging.baionline.ru/api/new-chartskit/6bdff16d-9975-4690-a89a-7e7606f4dac6/chart
+name: Add Chart
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_07017c6ad2024bef856f7e73fcc77565
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/vasilisa/Pictures/Screenshots/Screenshot from 2022-03-10
+        19-34-15.jpg
+      disabled: false
+    - id: pair_a68b53328efa45c2a300b106f11db675
+      name: chart
+      value: '{"uuid":"2d8f8714-0554-4759-a42b-3270b236e24b","name":"TESTPAGE-1","type":"INFO","flightRules":"IFR",
+        "flightRules": "INFO"}'
+      description: ""
+      type: text
+      multiline: true
+    - id: pair_4f6097535da24ff09ac16e4a1c2dcd40
+      name: tailored
+      value: "112"
+      description: ""
+      disabled: false
+    - id: pair_d0bd208317c246478df2ef5d8be34d17
+      name: ""
+      value: ""
+      description: ""
+      disabled: true
+    - id: pair_1fbaaa17adb04dc3abae8c6db9f9a958
+      name: ""
+      value: ""
+      description: ""
+      disabled: true
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8c46421aa1574afda34a0c3c91e1ca9b
+  - id: pair_791a2dea21374607b4546a873968f635
+    name: idempotent-key
+    value: 6bdff16d-9975-4690-a89a-7e7606f4dac6
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1629094054214.4766
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

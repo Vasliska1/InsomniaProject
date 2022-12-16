@@ -1,0 +1,24 @@
+_id: req_1b0d81be41fc4504ba8b091a1a4ae31f
+type: Request
+parentId: fld_802ec818bc654373b4b9d4a91db6c9a5
+modified: 1671194512080
+created: 1671194512080
+url: "{{ _.url.bai_api }}/proxy/catalog"
+name: Get root catalog
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+metaSortKey: -1635146245007.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

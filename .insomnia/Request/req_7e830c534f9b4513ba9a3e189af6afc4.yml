@@ -1,0 +1,48 @@
+_id: req_7e830c534f9b4513ba9a3e189af6afc4
+type: Request
+parentId: fld_2cbaf02613d54753b4eab9632300e29c
+modified: 1671194511857
+created: 1671194511857
+url: "{{ _.url.bai
+  }}/map/fpl/route?fpl=DOKOD%20M61%20DIBAB%20M61%20SUMOM%20P983%20ORTOD/N0284F3\
+  50%20P983%20GIBUL"
+name: Get Map fpl
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ffdf364ce4c9448a80529ef4a5870b66
+    name: fpl
+    value: |-
+      (FPL-SDM6449-IS
+      -A319/M-SDFGHIJ1RWY/S
+      -ULLI1000
+      -N0454F350 KERI1A KERIS L255 DOKOD M61 DIBAB M61 SUMOM P983
+      ORTOD/N0284F350 P983 GIBUL P983 GINPA GINP1F
+      -USTR0242 USSS USCC
+      -PBN/B1D1A1S2O1 DOF/220826 REG/RA73198 EET/ULLL0005 USSV0106 USTV0230
+      SEL/BKAJ CODE/151DEE OPR/SDM RALT/ULLI USKK USTR RMK/ACASII EQUIPPED)
+    description: ""
+    type: text
+    multiline: text/plain
+    disabled: true
+headers:
+  - id: pair_0d5e531d6b864f02806410811986db89
+    name: format
+    value: .json
+    description: ""
+    disabled: true
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1617280269270.3936
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,46 @@
+_id: req_b96ae200fde341d5b4bdec4cb9607838
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512039
+created: 1671194512039
+url: https://staging.baionline.ru/api/new-chartskit/66f63f34-4339-4942-8855-2ddb54457563/publish
+name: test charts2
+description: ""
+method: PUT
+body: {}
+parameters:
+  - id: pair_78fb9a926be343f68c2e4f3657a3d57d
+    name: date
+    value: 2023-04-18 00:00:00
+    description: ""
+    disabled: false
+  - id: pair_68feddc22e474f3185eb529aad9a7897
+    name: companies
+    value: "1"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_18f3018b8c9748a48d07e8f6f6abf8c3
+    name: idempotent-key
+    value: 6bdff16d-9975-4690-a89a-7e7606f4dac6
+    description: ""
+  - id: pair_551e8e2939464c70995151908bf64f9e
+    name: Authorization
+    value: Bearer {% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+      'b64::JC50b2tlbg==::46b', 'always', 60 %}
+    description: ""
+    disabled: false
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: vazgen
+  password: "010978"
+metaSortKey: -1630067233394.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

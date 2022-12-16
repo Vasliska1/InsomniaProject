@@ -1,0 +1,25 @@
+_id: req_7f39ab2fc98f484fa48132d4944c20bb
+type: Request
+parentId: fld_14024f2c54b64d4dbcdcc3319ebfe785
+modified: 1671194511845
+created: 1671194511845
+url: "{{ _.url.bai_api
+  }}/snowtam/push/token?device=CBAA92C6-DCA3-4D25-A628-550CE0EE6424"
+name: Get Token By device
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 30 %}"
+metaSortKey: -1616554246082.1445
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

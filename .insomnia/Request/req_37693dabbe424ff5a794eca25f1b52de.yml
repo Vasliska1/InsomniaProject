@@ -1,0 +1,56 @@
+_id: req_37693dabbe424ff5a794eca25f1b52de
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511807
+created: 1671194511807
+url: "{{ _.url.bai_api }}/pib"
+name: Create Bulletin Area
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+          "id": "6617e26e-5c3a-44c3-9a8b-8dc99144d0f1",
+    			"name": "Test Bulletin #1",
+    			"description": "Test description",
+    			"isCompany": false,
+    			"languageNotam": "BOTH",
+    			"languageBulletin": "ENG",
+    			"excludeUnscheduled": false,
+    			"airportHeliportSearch": [
+    			],
+    			"areaSearch": [
+    				{
+    					"locationIndicatorICAO": "UIII",
+    					"flightRules": "BOTH",
+    					"isUnessentialNotam": true,
+    					"isMilitaryNotam": true,
+    					"period": {
+    						"start": "2021-04-18 10:00:00",
+    						"end": null
+    					}
+    				}
+    			],
+    			"period": {
+    				"start": "2021-04-18 10:00:00",
+    				"end": null
+    			}
+    }
+parameters: []
+headers:
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 30 %}"
+metaSortKey: -1581553216934.0176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

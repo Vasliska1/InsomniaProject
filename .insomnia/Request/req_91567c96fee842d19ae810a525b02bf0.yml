@@ -1,0 +1,26 @@
+_id: req_91567c96fee842d19ae810a525b02bf0
+type: Request
+parentId: fld_8773ffaaefe94f2292b82ad402cf9b8c
+modified: 1671194511931
+created: 1671194511931
+url: http://localhost:8000/api/chartskit/999be573-e6eb-4766-aee8-4a4bb9c24dcd/chart/441ed4af-e6eb-4766-aee8-4a4bb9ca4dcd/download
+name: Download Chart
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2d038b4d5af94e02b8d80c2991c99040
+authentication: {}
+metaSortKey: -1629442335123
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

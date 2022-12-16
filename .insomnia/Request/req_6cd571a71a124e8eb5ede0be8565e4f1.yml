@@ -1,0 +1,37 @@
+_id: req_6cd571a71a124e8eb5ede0be8565e4f1
+type: Request
+parentId: fld_fec7d28fa4644ed3a9321565b38783d1
+modified: 1671194511968
+created: 1671194511968
+url: http://localhost:8000/api/v1/snowtam/list
+name: Get List
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "filter": {
+    		"indicators": ["UUDD", "ULLI"],
+        "beginDate": "2021-12-22 12:00:00",
+    		"endDate": "2021-12-22 13:00:00"
+      },
+      "options": {
+        "pageNumber": 1,
+        "pageSize": 20
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_21fd09b0f5d54d1c8e1f255614cfee58
+authentication: {}
+metaSortKey: -1640168017517
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

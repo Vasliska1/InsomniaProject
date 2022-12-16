@@ -1,0 +1,97 @@
+_id: req_f436c21f502e46198115629e86ff8be5
+type: Request
+parentId: fld_b015382180c4437e881ff2cfe3b42991
+modified: 1671194511978
+created: 1671194511978
+url: "{{ _.url.bai_api }}/routes"
+name: Synchronization Route
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+          "routes": [
+            {
+              "uuid": "2af21138-f4b7-414b-88cd-cc3b4f4cfa0d",
+              "name": "59°36'43N/30°35'41E - UUWW",
+              "isCompany": false,
+              "deleted": false,
+              "modified": "2021-10-12 13:34",
+              "elements": [
+                {
+                  "point": {
+                    "key": "59°36'43N/30°35'41E",
+                    "geom": {
+                      "latitude": 59.611944,
+                      "longitude": 30.594722
+                    }
+                  }
+                },
+                {
+                  "point": {
+                    "key": "UUWW",
+                    "geom": {
+                      "latitude": 55.599169,
+                      "longitude": 37.273061
+                    }
+                  }
+            }
+              ]
+            }
+          ],
+          "poi": [
+            {
+              "uuid": "cf9c1593-c096-4496-8438-1e420247fce1",
+              "name": "59°36'43N/30°35'41E",
+              "description": "",
+              "isCompany": false,
+              "deleted": false,
+              "modified": "2021-10-12 12:42",
+              "geom": {
+                "latitude": 59.611944,
+                "longitude": 30.594722
+              }
+            },
+            {
+              "uuid": "88428213-069c-453c-8d06-fadd41c6d8c3",
+              "name": "МИХАЙЛОВКА",
+              "description": "",
+              "isCompany": false,
+              "deleted": false,
+              "modified": "2021-05-25 13:17",
+              "geom": {
+                "latitude": 51.426111,
+                "longitude": 46.2775
+              }
+            },
+            {
+              "uuid": "e82c211c-cb02-4b3f-bec4-f82c9b4f244d",
+              "name": "DF",
+              "isCompany": false,
+              "deleted": false,
+              "modified": "2021-10-20 10:06",
+              "geom": {
+                "latitude": 59.474444,
+                "longitude": 30.003056
+              }
+            }
+          ]
+        }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8244c677323a4c86bfc8e48befdac4fd
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+    'b64::JC50b2tlbg==::46b', 'always', 30 %}"
+metaSortKey: -1581553217003.5488
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

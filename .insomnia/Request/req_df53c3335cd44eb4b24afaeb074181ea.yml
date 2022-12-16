@@ -1,0 +1,39 @@
+_id: req_df53c3335cd44eb4b24afaeb074181ea
+type: Request
+parentId: fld_dca8219017a94313b77115991430e447
+modified: 1671195453276
+created: 1671194511907
+url: "{{ _.url.bai_api
+  }}/flydrone/aero-data/6d0bea2e-4d89-4bcd-a4ae-01cf8ab524c8/airspace"
+name: AirportHeliport json
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "{% response 'body', 'req_0a0fd7f29b89486198b70085a8e1804d',
+      'b64::JA==::46b', 'always', 60 %}"
+    description: ""
+    id: pair_5646044f1a2942f6aaaf1d6421f052b7
+    disabled: true
+headers:
+  - id: pair_399eb9b1d97f47ec85db1605a0fe1fd2
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiYzNiYmNjYTUtNjZmNy00ZGJhLTgxMWItNjFjMzY5YjIwNTZiIiwiZXhwIjoxNjcxMTk3MzQyLCJpYXQiOjE2NzExOTM3NDJ9.uLf4zIqnaJufm3nBsfIFtCgO2d1R9WCFwERqZbCjT9OS7wl5pORXsVhpuhZQIkmbYvPXeBj0SwwQcOuMsTPlBseG6t2QC2J3MTxm083YUyduizOc-XwZAk2TnZ6xKgaZUJ0OYc6Kj-kJ6dvcOSxeVbmFhEuwlysarYc4fVm_mQ01MfMsk6-sCzUjRe_qUwfQaVPLjtrfHDM2TeGLCrNtwKl0WbN458GhPiRpQ07FeCZFDjmBOyhTWa692uGapfxGkPsoj6VuLfOPdfdADdRG2zIFqP8Wbd0W3dzv2zcYBIoBmMm1p3gWuXZ5tElvxrjXexwDA2Mzutsso4MDEHnujUKGR4uT5y2Gw2hx1TWWfTXk9xXiqtuZ4tYtnbXXT8vFaSNnzr6bUwZjp-P2NTk7-3eYzVdR3wlLEOdWb2st_N6fK8snLqVIEWdOT68BDd6azYUv_rgvrK4Nc-3pBk6BU9cwTJmU4-ONUvIq0YHSLzFEFgcdyS0JIQwyTL2ajx-dy6E9_0QPqcmolrPvu2lN2kTly43lDgD0NuqTMpuEa0dBtP0q7FoeTInN_9q3ptwFMTH8MzkpTe0hLWQNODp5OUA1Lh0Zk5XG-i4gNEHsITk2um3sQjbUTYOMFnhiolbJGNAXqQ4d6Rl2eo14HIkdmHw5IPgrjPOKXtK-J6z64jw
+    description: ""
+    disabled: true
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1618080651851.1094
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

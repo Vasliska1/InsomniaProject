@@ -1,0 +1,46 @@
+_id: req_39ea0af8fd8e4340b0acce8bc025a7c6
+type: Request
+parentId: fld_fad60f63205f430da1b339c969e3aa7d
+modified: 1671194512026
+created: 1671194512026
+url: "{{ _.url.bai_api }}/chartskit/1e5b6b1c-0b21-408b-bf0c-1b943a24ee9d/download"
+name: Download ChartsKit
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_d8cfb70123e242f8af9df6d473d6b65e
+    name: tailored
+    value: "112"
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2d038b4d5af94e02b8d80c2991c99040
+  - id: pair_7624e9a049e34667aec9c93747ed669b
+    name: Authorization1
+    value: Bearer {% response 'body', 'req_ca7d5ebe76ab4398af2327a9f297b18d',
+      'b64::JC50b2tlbg==::46b', 'always', 60 %}
+    description: ""
+    disabled: false
+  - id: pair_1e42c69edb2144ffad45de5a076351e5
+    name: idempotent-key
+    value: "1"
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1629694238420.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

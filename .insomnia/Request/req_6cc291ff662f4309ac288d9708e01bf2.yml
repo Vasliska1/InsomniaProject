@@ -1,0 +1,49 @@
+_id: req_6cc291ff662f4309ac288d9708e01bf2
+type: Request
+parentId: fld_b015382180c4437e881ff2cfe3b42991
+modified: 1671194511998
+created: 1671194511998
+url: "{{ _.url.bai_api }}/route/fpl/aerolocia/volga-dnepr/txt"
+name: Create Route From Txt Volga Dnepr
+description: ""
+method: POST
+body:
+  mimeType: application/octet-stream
+  fileName: /home/vasilisa/Documents/OFP/volga.TXT
+parameters:
+  - name: id
+    value: asdasd
+    description: ""
+    id: pair_7aaa0c09412d42608b1f34f5ea1488e2
+    disabled: true
+  - id: pair_99bf5b8cb1be4cd69c59454d694efb1d
+    name: companyId
+    value: "2"
+    description: ""
+  - id: pair_bee7feb78f5c4252bc2e3ee5c61682d0
+    name: expiryHours
+    value: "99999999999999999999999999999999999999999999999999999999999999999999999\
+      9999999999999999999999999999999999999999999999999999999999999999999999999\
+      9999999999999999999999999999999999999999999999999999999999999999999999999\
+      9999999999999999999999999999999999999999999999999999999999999999999999999\
+      99999999999999999999999999999999"
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: text/plain
+    id: pair_ccf1554dc36b4ac1a3c81cfc24e2c64b
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1581553217005.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

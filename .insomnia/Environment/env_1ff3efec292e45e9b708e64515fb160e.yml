@@ -1,0 +1,23 @@
+_id: env_1ff3efec292e45e9b708e64515fb160e
+type: Environment
+parentId: env_54e5fd8c39e547839cf354ce2b3ded74
+modified: 1671194511766
+created: 1671194511766
+name: Production [baionline.ru]
+data:
+  url:
+    bai: https://baionline.ru
+    bai_api: "{{ _.url.bai }}/api"
+    eaip: https://eaip.baionline.ru
+    eaip_api: "{{ _.url.eaip }}/api"
+dataPropertyOrder:
+  "&":
+    - url
+  "&~|url":
+    - bai
+    - bai_api
+    - eaip
+    - eaip_api
+color: "#fd3f3f"
+isPrivate: false
+metaSortKey: 1619768911774

@@ -1,0 +1,38 @@
+_id: req_d4823fcfef37499b839dc53fdaddfb0f
+type: Request
+parentId: fld_365be2749a7a4518a4f340fb66719678
+modified: 1671194511819
+created: 1671194511819
+url: "{{ _.url.bai_api }}/pib/{% response 'body',
+  'req_686d82b90c6f4cc5ac1d668a406d1791', 'b64::JC5idWxsZXRpbnNbMF0uaWQ=::46b',
+  'when-expired', 60 %}/stamp/{% response 'body',
+  'req_4fa2c739f8de41209ad47e42e0620474',
+  'b64::JC5idWxsZXRpbi5zdGFtcHNbMF0uaWQ=::46b', 'when-expired', 60 %}/pdf"
+name: Get Bulletin Stamp
+description: |-
+  Параметры:
+  - ID бюллетеня;
+  - ID подготовленного слепка бюллетеня.
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_cbf9c9f4ada94768835552be6d4ec418
+    name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: vazgen
+  password: "010978"
+metaSortKey: -1581553217002.7676
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
