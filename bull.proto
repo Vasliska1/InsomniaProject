@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package bulletin_ofp;
+option go_package = "./bulletin_ofp/proto";
+import "google/protobuf/descriptor.proto";
+import "google/api/annotations.proto";
+import "google/api/httpbody.proto";
+import "openapiv3/annotations.proto";
+
+
+service BulletinOfpService {
+  rpc CreateBulletinNordstar (CreateBulletinNordstarRequest) returns (CreateBulletinNordstarResponse)  {
+    option (google.api.http) = {
+      post: "/api/bulletin_ofp/cfp/nordstar",
+      body: "body_message"
+    };
+
+  }
+}
+
+message CreateBulletinNordstarRequest{
+  google.api.HttpBody body_message = 1;
+}
+
+message CreateBulletinNordstarResponse{
+  string result = 1;
+}
